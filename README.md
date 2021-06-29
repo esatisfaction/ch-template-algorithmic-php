@@ -6,7 +6,7 @@ This is a challenge template for algorithmic projects written in PHP.
 
 This project requires the following technologies and libraries to work:
 
-* **PHP** >= 5.6
+* **PHP** >= 7.1
 * **Composer**, you can get the composer from here: [getcomposer.org](https://getcomposer.org/)
 * **PHPUnit**, [Source Code](https://github.com/sebastianbergmann/phpunit), [Packagist](https://packagist.org/packages/phpunit/phpunit)
 

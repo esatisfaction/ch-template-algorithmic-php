@@ -12,13 +12,13 @@
 namespace Challenge\tests;
 
 use Challenge\Challenge;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class ChallengeTest
  * @package Challenge\tests
  */
-class ChallengeTest extends PHPUnit_Framework_TestCase
+class ChallengeTest extends TestCase
 {
     /**
      * @var Challenge
@@ -28,7 +28,7 @@ class ChallengeTest extends PHPUnit_Framework_TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
@@ -39,7 +39,6 @@ class ChallengeTest extends PHPUnit_Framework_TestCase
     /**
      * @covers \Challenge\Challenge::execute
      *
-     * @throws \PHPUnit_Framework_AssertionFailedError
      */
     public function testExecute()
     {
