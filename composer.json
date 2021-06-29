@@ -10,9 +10,9 @@
     "type": "project",
     "authors": [
         {
-            "name": "Ioannis Papikas",
-            "email": "papikas.ioan@gmail.com",
-            "homepage": "https://ipapikas.me"
+            "name": "e-satisfaction Developers",
+            "email": "tech@e-satisfaction.com",
+            "homepage": "https://developers.e-satisfaction.com"
         }
     ],
     "require": {
